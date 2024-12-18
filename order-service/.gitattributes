@@ -1,0 +1,3 @@
+echo "*.xml text eol=lf" >> .gitattributes
+echo "*.properties text eol=lf" >> .gitattributes
+echo "*.mvn text eol=lf" >> .gitattributes
