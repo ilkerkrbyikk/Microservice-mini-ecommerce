@@ -58,6 +58,7 @@ docker/*.log
 
 # Spring Boot specific files
 spring.log
+*.sock
 
 # JetBrains IDEs
 out/
@@ -75,6 +76,7 @@ out/
 # macOS specific
 *.DS_Store
 *.AppleDouble
+
 
 !.mvn/wrapper/
 !mvnw

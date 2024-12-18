@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
+# Satır sonu ayarları
 * text=auto
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.xml text eol=lf
+*.properties text eol=lf
+*.java text eol=lf
+*.gitignore text eol=lf
