@@ -16,5 +16,19 @@ public class OrderRequest {
     private String skuCode;
     private BigDecimal price;
     private int quantity;
+    private UserDetails userDetails;
+
+    /*
+    * inner class
+    * */
+    @Data
+    @AllArgsConstructor
+    @NoArgsConstructor
+    public class UserDetails {
+
+        private String email;
+        private String firstName;
+        private String lastName;
+    }
 
 }

@@ -1,0 +1,82 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+
+# Eclipse files
+.project
+.classpath
+.settings/
+bin/
+
+# Maven and Gradle
+target/
+.build/
+*.mvn/
+!mvnw
+!mvnw.cmd
+.mvn/wrapper/
+
+# Node modules (if using front-end code)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+*.key
+*.pem
+
+# Docker files
+docker-compose.override.yml
+docker/data/
+docker/mysql/data/
+docker/*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Logs and Database
+*.sql
+*.sqlite
+
+# Spring Boot specific files
+spring.log
+
+# JetBrains IDEs
+out/
+.idea/
+*.ipr
+*.iws
+
+# Windows specific
+*.exe
+*.dll
+*.obj
+*.ilk
+*.pch
+
+# macOS specific
+*.DS_Store
+*.AppleDouble
+
+
+!.mvn/wrapper/
+!mvnw
+!mvnw.cmd
